@@ -1,0 +1,39 @@
+article {
+	text-align: center;
+}
+img{
+	width: 300px;
+	border: 4px double #f0f;
+}
+p {
+	line-height: 1.3em;
+}
+div {
+	width: 300px;
+	float: left;
+}
+pre {
+	background-image: url(bg.png) 0 0 repeat-x #f0f;
+	border: 3px solid #ff0;
+}
+span {
+	color: darkblue;
+	text-decoration: underline;
+}
+p.doge {
+	text-align: left;
+	border-left: 4px dashed BlueViolet;
+}
+ol {
+	text-align: left;
+	color: darkgreen;
+}
+a {
+	color: darkgreen;
+}
+a:hover {
+text-decoration: none;
+}
+footer {
+	border-bottom: 2px dashed #000;
+}
