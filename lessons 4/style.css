@@ -1,0 +1,38 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+/*
+Фон - #ccc
+Граница - #d14eac
+Лого - #292929
+Меню, текст - #242424
+Ховер на меню - #494949
+Футер - #6c6c6c
+*/
+}
+.wrapper {
+	background-color: #ccc;
+}
+.content {
+	border-left: 2px solid #d14eac;
+	border-right: 2px solid #d14eac;
+	max-width: 1200px;
+	background-color: #fff;
+	margin-left: auto;
+	margin-right: auto;
+}
+.logo-wrapper {
+	text-align: center;
+}
+.logo {
+	display: inline-block;
+	color: #000;
+	text-decoration: none;
+}
+.company-name {
+	display: block;
+	font-size: 32px;
+	text-transform: uppercase;
+}
