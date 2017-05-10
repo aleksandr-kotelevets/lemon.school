@@ -36,3 +36,21 @@
 	font-size: 32px;
 	text-transform: uppercase;
 }
+.header-nav {
+	padding-left: 40px;
+	padding-right: 40px;
+	background-color: #242424;
+	color: #fff;
+}
+.header-list-item-nav {
+	display: inline-block;
+}
+.header-nav-link {
+	display: inline-block;
+	padding: 10px 20px;
+	color: #fff;
+	text-decoration: none;
+}
+.header-nav-link:hover {
+	background-color: #494949;
+}
