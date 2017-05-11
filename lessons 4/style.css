@@ -1,56 +1,91 @@
 * {
-	margin: 0;
 	padding: 0;
+	margin: 0;
 	box-sizing: border-box;
 	font-family: sans-serif;
-/*
-Фон - #ccc
-Граница - #d14eac
-Лого - #292929
-Меню, текст - #242424
-Ховер на меню - #494949
-Футер - #6c6c6c
-*/
+
 }
 .wrapper {
-	background-color: #ccc;
-}
-.content {
-	border-left: 2px solid #d14eac;
-	border-right: 2px solid #d14eac;
-	max-width: 1200px;
-	background-color: #fff;
-	margin-left: auto;
-	margin-right: auto;
-}
-.logo-wrapper {
-	text-align: center;
+	width: 1200px;
+	margin: 0 auto;
+	border-right: 2px dotted #000;
+	border-left: 2px dotted #000;
 }
 .logo {
-	display: inline-block;
-	color: #000;
-	text-decoration: none;
-}
-.company-name {
 	display: block;
-	font-size: 32px;
+	width: 180px;
+	padding-left: 30px;
+	text-decoration: none;
+	text-align: center;
+	color: #000;
+}
+.logo span {
+	display: inline-block;
 	text-transform: uppercase;
+	font-size: 20px;
+}
+.logo img {
+	width: 100%;
+}
+.logo:hover {
+	opacity: .8;
+}
+nav ul {
+	list-style: none;
+}
+nav li {
+	display: inline-block;
 }
 .header-nav {
-	padding-left: 40px;
-	padding-right: 40px;
-	background-color: #242424;
-	color: #fff;
+      border-style: solid;
+      border-color: #000;
+      border-width: 4px 0;
+      padding-left: 30px;
+      margin-top: 40px;
 }
-.header-list-item-nav {
-	display: inline-block;
-}
-.header-nav-link {
+.header-nav a {
+	font-size: 20px;
+	text-decoration: none;
 	display: inline-block;
 	padding: 10px 20px;
+	color: #000;
+}
+.header-nav a:hover {
+	color: #fff;
+	background-color: #000;
+}
+.content {
+	padding: 30px;
+}
+h1, h2, p {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+h1 {
+	font-size: 30px;
+}
+h2 {
+	font-size: 22px;
+}
+.content img {
+	width: 100%;
+}
+footer {
+	background-color: #000;
+	color: #fff;
+	padding: 30px;
+}
+.footer-nav {
+	text-align: center;
+	font-size: 12px;
+}
+.footer-nav-li {
+	padding: 0 10px;
+}
+.footer-nav a {
 	color: #fff;
 	text-decoration: none;
 }
-.header-nav-link:hover {
-	background-color: #494949;
+.footer-nav a:hover {
+	border-bottom: 1px dashed #fff;
 }
