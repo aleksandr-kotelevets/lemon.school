@@ -24,7 +24,7 @@
 	width: 25%;
 	float: left;
 	background-color: green;
-	min-height: 70vh;
+	min-height: 100vh;
 }
 .aside2 {
 	font-size: 2em;
@@ -32,14 +32,14 @@
 	width: 25%;
 	float: right;
 	background-color: red;
-	min-height: 70vh;
+	min-height: 100vh;
 }
 .content {
 	float: left;
 	width: 50%;
 	padding: 25px;
 	background-color: blue;
-	min-height: 70vh;
+	min-height: 100vh;
 }
 .footer {
 	clear: both;
