@@ -4,50 +4,65 @@
 	box-sizing: border-box;
 	font-family: sans-serif;
 }
-.main {
-	width: 100%;
-	float: left;
-}
 .header {
-
-	padding-top: 50px;
-	padding-left: 20px;
-	padding-bottom: 20px;
+	float: left;
 	width: 100%;
-	background-color: #333; 
-	font-size: 2em;
+	background-color: black;
+}
+.header-content {
 	color: #fff;
+	padding: 50px;
 }
-.aside1 {
-	font-size: 2em;
-	padding: 20px;
-	width: 25%;
-	float: left;
-	background-color: green;
-	min-height: 100vh;
+.container3 {
+    float:left;
+    width:100%;
+    background:green;
+    overflow:hidden;
+    position:relative;
 }
-.aside2 {
-	font-size: 2em;
-	padding: 20px;
-	width: 25%;
-	float: right;
-	background-color: red;
-	min-height: 100vh;
+.container2 {
+    float:left;
+    width:100%;
+    background:blue;
+    position:relative;
+    right:30%;
 }
-.content {
-	float: left;
-	width: 50%;
-	padding: 25px;
-	background-color: blue;
-	min-height: 100vh;
+.container1 {
+    float:left;
+    width:100%;
+    background:red;
+    position:relative;
+    right:40%;
+}
+.col1 {
+    float:left;
+    width:26%;
+    position:relative;
+    left:70%;
+    overflow:hidden;
+    padding: 50px;
+}
+.col2 {
+    float:left;
+    width:36%;
+    position:relative;
+    left:76%;
+    overflow:hidden;
+    padding: 50px;
+}
+.col3 {
+    float:left;
+    width:26%;
+    position:relative;
+    left:78%;
+    overflow:hidden;
+    padding: 50px;
 }
 .footer {
-	clear: both;
-	padding-top: 20px;
-	padding-left: 20px;
-	padding-bottom: 50px;
+	float: left;
 	width: 100%;
-	background-color: #333; 
-	font-size: 2em;
-	color: #fff;
+	background-color: black;
 }
+.footer-content {
+	color: #fff;
+	padding: 50px;
