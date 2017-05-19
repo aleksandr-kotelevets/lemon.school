@@ -1,0 +1,68 @@
+<!Doctype html> 
+<head> 
+	<title>Заголовочек</title> 
+	<meta charset ="UTF-8"> 
+<style> 
+	* { 
+		padding: 0; 
+		margin: 0; 
+		box-sizing: border-box; 
+	} 
+	/.main{
+		width: 1170px;
+		margin: 0 auto;
+	}
+	.block{
+		margin-bottom: 60px;
+		overflow: hidden;
+	}
+	.first .big{
+		float: left;
+	}
+	.first .small{
+		float: right;
+	}
+	.second .big{
+		float: right;
+	}
+	.second .small{
+		float: left;
+	}
+	.small{
+		width: 370px;
+		height: 200px;
+		background: #000;
+	}
+	.big{
+		width: 770px;
+		height: 200px;
+		background-color: #000;
+	}
+	.medium{
+		width: 570px;
+		height: 200px;
+		background: #000;
+		float: left;
+	}
+	.right{
+		float: right;
+	}
+</style> 
+</head> 
+<body>
+	<div class="main">
+		<div class="block first"> 
+		<div class="big"></div>
+		<div class="small"></div>
+	</div> 
+	<div class="block second"> 
+		<div class="small"></div>
+		<div class="big"></div>
+	</div> 
+	<div class="block third"> 
+		<div class="medium"></div>
+		<div class="medium right"></div>
+	</div> 
+	</div>
+</body> 
+</html>
