@@ -1,0 +1,38 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 24px;
+}
+ul {
+	list-style-type: none;
+}
+.init_star li::before {
+	content:'★';
+	margin-right: 10px;
+}
+.init_heart li::before{
+	content:'❤';
+ 	margin-right: 10px;
+ 	padding-left: 60px;
+}
+.init_sun li::before{
+	content:'☀';
+	margin-right: 10px;
+	padding-left: 115px; 
+}
+a{
+	text-decoration: none;
+	color: black;
+	display: inline-block;
+}
+a::after {
+    content: ""; 
+    height: 2px;
+    background-color: black; 
+    width:50%; 
+    display: block;
+}
+ a:hover::after,
+ a:focus::after {
+    width: 100%;  
+}
