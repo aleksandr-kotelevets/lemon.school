@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>dog</title>
+	<style>
+		* {
+			padding: 0;
+			margin: 0;
+			box-sizing: border-box;
+		}
+		img {
+			float: left;
+			border: solid 4px red;
+			margin-left: 30px;
+		}
+		
+		.col {
+			position: relative;
+			display: inline-block;
+			}
+		.container {
+			width: 920px;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 30px;
+			
+		}
+		.col:hover .description {
+			display: block;
+
+		}
+		.description {
+			width: 270px;
+			height: 300px;
+			position: absolute;
+			left: 30px;
+			background-color: rgba(0, 0, 0,.3);
+			display: none;
+		}
+		.description_text {
+			position: absolute;
+			left: 12px;
+			right: 12px;
+			background-color: #000;
+			color: #fff;
+			font-size: 20px;
+			font-family: sans-serif;
+			padding: 10px 5px;
+			bottom: 11px;
+			text-align: center;
+		}
+
+
+	</style>
+</head>
+<body>
+<div class="container">
+	<div class="content">
+		<div class="col">
+			<img src="dog.jpg" alt="dog1">
+			<div class="description">
+				<span class="description_text">Dog is amazing</span>
+			</div>
+		</div>
+		<div class="col">
+			<img src="dog.jpg" alt="dog1">
+			<div class="description">
+				<span class="description_text">Dog is amazing</span>
+			</div>
+		</div>
+		<div class="col">
+			<img src="dog.jpg" alt="dog1">
+			<div class="description">
+				<span class="description_text">Dog is amazing</span>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
