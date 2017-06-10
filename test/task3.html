@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+}
+.conteiner{
+ 	min-width: 100%;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	
+}
+.content{
+	width:400px;
+	margin-left: auto;
+ 	margin-right: auto;	
+}
+.wrapper{
+	margin-top: 50%;
+}
+
+form{
+box-shadow: 0 0 60px 0 rgba(0, 0, 0, .2);
+padding: 15px 10px;
+line-height: 30px;
+border: 1px solid black;
+
+}
+.form-control {
+			margin-top: 0px;
+			margin-bottom: 5px;
+		}
+		input[type="text"] {
+			display: block;
+			width: 100%;
+			padding: 3px;
+			border: 1px solid black;
+			display: inline-block;
+		}
+		
+		input[type="text"]:focus {
+			box-shadow: 0 0 10px 0 rgba(0,0,0,.7);
+			border: 1px solid #000;
+			outline: none;
+		}
+		input[type="radio"] {
+			display: inline-block;
+		
+		a:hover + span{
+			color: #000;
+		}
+		
+		.button-form{
+			background-color: #000;
+			color: #fff;
+		}
+		button{
+			padding-left: 26px;
+			padding-right: 26px;
+			padding-top: 3px;
+			padding-bottom: 3px;
+			border: none;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="content">
+			<div class="wrapper">
+				<form method="post">
+					<div class="control">
+						<label for="name" class="text-label">Ваше имя</label>
+							<input type="text" id="name" name="name" placeholder="Например, Иванов Иван Иванович">
+						<label for="name" class="text-label">Ваш род деятельности</label>
+							<input type="text" id="name" name="name" placeholder="Например, Выращиваю огурцы">
+						<p>Согласны ли вы с условиями?</p>
+						<div class="fieldset">
+							<label>
+								<input type="radio" name="gender">
+								<span></span>
+								Категорически ДА!
+							</label>
+								<label>
+								<input type="radio" name="gender">
+								<span></span>
+								Категорически НЕТ!
+							</label>
+							<button type="submit" class="button-form">Отправить</button>
+						</div>
+					</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
